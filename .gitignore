@@ -6,3 +6,4 @@ school.db
 *.sqlite3
 .vscode/
 .env
+!demo_database/school.db

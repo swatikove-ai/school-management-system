@@ -11,7 +11,7 @@ app.secret_key = os.environ.get(
 )
 
 BASE_DIR = Path(__file__).resolve().parent
-DATABASE = BASE_DIR / "database" / "school.db"
+DATABASE = BASE_DIR / "demo_database" / "school.db"
 ADMIN_USERNAME = os.environ.get("SCHOOL_ADMIN_USER", "admin")
 ADMIN_PASSWORD = os.environ.get("SCHOOL_ADMIN_PASSWORD", "ChangeMe123!")
 
