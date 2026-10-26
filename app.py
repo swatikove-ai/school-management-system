@@ -131,10 +131,6 @@ def login():
         <input type="password" name="password" required autocomplete="current-password">
         <p><button>Log in</button></p>
       </form>
-      <p class="small">
-        Local demo login: admin / ChangeMe123!
-        Change credentials before deployment.
-      </p>
     </div>
     """
     return page("Admin login", body)
